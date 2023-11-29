@@ -8,6 +8,19 @@ To accomplish the task please use the Trafiklab’s open API (https://www.trafik
 can find more information about the specific API on the documentation page:
 http://www.trafiklab.se/api/sl-hallplatser-och-linjer-2
 
-The code is written in Java, using Maven.
+# Steps to run the application on Windows:
+
+Clone the Repository:
+Open Command Prompt or Git Bash and run:
+git clone https://github.com/Jana0906/sbab-code-assignment.git
+
+Navigate to the Project Directory:
+cd sbab-code-assignment
+
+Build the Project:
+mvn clean install
+
+# The code is written in Java.
 (http://localhost:8080/lines) will return the top 10 lines with the most bus stop stations
-(http://localhost:8080/lines?top=3) with top RequestParam you can choose no=umbers of bus lines with the most stop stations
+(http://localhost:8080/lines?top=3) with top RequestParam you can choose the number of bus lines with the most stop stations tex.3
+
